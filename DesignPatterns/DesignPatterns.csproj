@@ -53,6 +53,12 @@
     <Compile Include="AbstractFactoryPattern\Product\NanChangYaBo.cs" />
     <Compile Include="AbstractFactoryPattern\Factory\ShangHaiFactory.cs" />
     <Compile Include="AbstractFactoryPattern\Factory\NanChangFactory.cs" />
+    <Compile Include="BuilderPattern\BaseBuilder.cs" />
+    <Compile Include="BuilderPattern\Computer.cs" />
+    <Compile Include="BuilderPattern\ConcreteBuilderC.cs" />
+    <Compile Include="BuilderPattern\ConcreteBuilderB.cs" />
+    <Compile Include="BuilderPattern\ConcreteBuilderA.cs" />
+    <Compile Include="BuilderPattern\Director.cs" />
     <Compile Include="FactoryMethodPattern\BaseFood.cs" />
     <Compile Include="FactoryMethodPattern\BaseCreator.cs" />
     <Compile Include="FactoryMethodPattern\Product\ShreddedPorkWithPotatoes.cs" />
@@ -70,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AbstractFactoryPattern\uml01.png" />
+    <Content Include="BuilderPattern\uml01.png" />
     <Content Include="FactoryMethodPattern\uml01.png" />
     <Content Include="SimpleFactoryPattern\uml01.png" />
     <Content Include="SingletonPattern\uml01.png" />
