@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.SimpleFactoryPattern
+namespace DesignPatterns.FactoryMethodPattern
 {
 	/// <summary>
 	/// 土豆肉丝这道菜

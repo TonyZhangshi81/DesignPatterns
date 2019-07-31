@@ -16,7 +16,7 @@ namespace DesignPatterns.SimpleFactoryPattern.Tests
 		{
 			// 客户想点一个西红柿炒蛋
 			BaseFood food = FoodSimpleFactory.CreateFood("西红柿炒蛋");
-			food.Print();
+			food.PutInto();
 
 			Assert.AreEqual("一份西红柿炒蛋", food.Dish);
 		}
@@ -29,7 +29,7 @@ namespace DesignPatterns.SimpleFactoryPattern.Tests
 		{
 			// 客户想点一份土豆肉丝
 			BaseFood food = FoodSimpleFactory.CreateFood("土豆肉丝");
-			food.Print();
+			food.PutInto();
 
 			Assert.AreEqual("一份土豆肉丝", food.Dish);
 		}

@@ -51,6 +51,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="FactoryMethodPattern\FactoryMethodPatternTest.cs" />
+    <Compile Include="FactoryMethodPattern\MincedMeatEggplantFactoryTests.cs" />
+    <Compile Include="FactoryMethodPattern\TomatoScrambledEggsFactoryTests.cs" />
+    <Compile Include="FactoryMethodPattern\ShreddedPorkWithPotatoesFactoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactoryPattern\FoodSimpleFactoryTests.cs" />
     <Compile Include="SingletonPattern\SingletonTests.cs" />

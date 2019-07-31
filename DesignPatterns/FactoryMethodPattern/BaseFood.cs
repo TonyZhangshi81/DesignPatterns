@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.SimpleFactoryPattern
+﻿namespace DesignPatterns.FactoryMethodPattern
 {
 	/// <summary>
 	/// 菜抽象类

@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FactoryMethodPattern\BaseFood.cs" />
+    <Compile Include="FactoryMethodPattern\BaseCreator.cs" />
+    <Compile Include="FactoryMethodPattern\ShreddedPorkWithPotatoes.cs" />
+    <Compile Include="FactoryMethodPattern\ShreddedPorkWithPotatoesFactory.cs" />
+    <Compile Include="FactoryMethodPattern\Ext\MincedMeatEggplant.cs" />
+    <Compile Include="FactoryMethodPattern\TomatoScrambledEggs.cs" />
+    <Compile Include="FactoryMethodPattern\Ext\MincedMeatEggplantFactory.cs" />
+    <Compile Include="FactoryMethodPattern\TomatoScrambledEggsFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactoryPattern\BaseFood.cs" />
     <Compile Include="SimpleFactoryPattern\FoodSimpleFactory.cs" />
@@ -49,8 +57,10 @@
     <Compile Include="SingletonPattern\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FactoryMethodPattern\uml01.png" />
     <Content Include="SimpleFactoryPattern\uml01.png" />
     <Content Include="SingletonPattern\uml01.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DesignPatterns.SimpleFactoryPattern
+﻿namespace DesignPatterns.FactoryMethodPattern
 {
 	/// <summary>
 	/// 西红柿炒鸡蛋这道菜
