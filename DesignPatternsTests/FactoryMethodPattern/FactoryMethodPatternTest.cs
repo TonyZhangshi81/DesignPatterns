@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace DesignPatternsTests.FactoryMethodPattern
 {
 	/// <summary>
-	/// 
+	/// 工厂方法模式测试类
 	/// </summary>
 	[TestClass()]
 	public class FactoryMethodPatternTest

@@ -6,7 +6,7 @@ namespace DesignPatterns.FactoryMethodPattern.Tests
 	/// 工厂方法模式测试类
 	/// </summary>
 	[TestClass()]
-	public class ShreddedPorkWithPotatoesFactoryTests
+	public class TomatoScrambledEggsFactoryTests
 	{
 		/// <summary>
 		/// 看看餐馆能做什么菜
@@ -14,12 +14,14 @@ namespace DesignPatterns.FactoryMethodPattern.Tests
 		[TestMethod()]
 		public void CreateFoodFactoryTest()
 		{
-			var factory = new ShreddedPorkWithPotatoesFactory();
+			var factory = new TomatoScrambledEggsFactory();
 
-			// 负责创建土豆肉丝这道菜的工程实例
+			// 负责创建西红柿炒蛋这道菜的工程实例
 			var food = factory.CreateFoodFactory();
 
+			// 验证
 			Assert.IsNotNull(food);
+			Assert.AreEqual(typeof(TomatoScrambledEggs), food.GetType());
 		}
 	}
 }
