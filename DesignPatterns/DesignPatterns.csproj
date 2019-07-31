@@ -68,6 +68,10 @@
     <Compile Include="FactoryMethodPattern\Ext\MincedMeatEggplantFactory.cs" />
     <Compile Include="FactoryMethodPattern\Factory\TomatoScrambledEggsFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypePattern\Color.cs" />
+    <Compile Include="PrototypePattern\ColorManager.cs" />
+    <Compile Include="PrototypePattern\ColorPrototype.cs" />
+    <Compile Include="PrototypePattern\Util\SerializeHelper.cs" />
     <Compile Include="SimpleFactoryPattern\BaseFood.cs" />
     <Compile Include="SimpleFactoryPattern\FoodSimpleFactory.cs" />
     <Compile Include="SimpleFactoryPattern\ShreddedPorkWithPotatoes.cs" />
@@ -78,6 +82,7 @@
     <Content Include="AbstractFactoryPattern\uml01.png" />
     <Content Include="BuilderPattern\uml01.png" />
     <Content Include="FactoryMethodPattern\uml01.png" />
+    <Content Include="PrototypePattern\uml01.png" />
     <Content Include="SimpleFactoryPattern\uml01.png" />
     <Content Include="SingletonPattern\uml01.png" />
   </ItemGroup>

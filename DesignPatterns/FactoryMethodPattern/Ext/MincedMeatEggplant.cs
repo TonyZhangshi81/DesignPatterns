@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.FactoryMethodPattern.Ext
+﻿namespace DesignPatterns.FactoryMethodPattern
 {
 	/// <summary>
 	/// 肉末茄子这道菜

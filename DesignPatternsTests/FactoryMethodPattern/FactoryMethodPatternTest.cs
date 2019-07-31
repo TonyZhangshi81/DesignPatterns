@@ -1,5 +1,4 @@
 ﻿using DesignPatterns.FactoryMethodPattern;
-using DesignPatterns.FactoryMethodPattern.Ext;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DesignPatternsTests.FactoryMethodPattern
