@@ -60,6 +60,7 @@
     <Compile Include="FactoryMethodPattern\Factory\TomatoScrambledEggsFactoryTests.cs" />
     <Compile Include="FactoryMethodPattern\Factory\ShreddedPorkWithPotatoesFactoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypePattern\PrototypePatternTests.cs" />
     <Compile Include="SimpleFactoryPattern\FoodSimpleFactoryTests.cs" />
     <Compile Include="SingletonPattern\SingletonTests.cs" />
   </ItemGroup>

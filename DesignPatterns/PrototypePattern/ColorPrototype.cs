@@ -20,6 +20,39 @@
 	public abstract class ColorPrototype
 	{
 		/// <summary>
+		/// 
+		/// </summary>
+		public int Red { get; set; }
+		/// <summary>
+		/// 
+		/// </summary>
+		public int Green { get; set; }
+		/// <summary>
+		/// 
+		/// </summary>
+		public int Blue { get; set; }
+
+		/// <summary>
+		/// 红绿蓝不带参构造函数
+		/// </summary>
+		public ColorPrototype()
+		{
+			Red = 255;
+			Green = 255;
+			Blue = 255;
+		}
+
+		/// <summary>
+		/// 红绿蓝带参构造函数
+		/// </summary>
+		public ColorPrototype(int red, int green, int blue)
+		{
+			Red = red;
+			Green = green;
+			Blue = blue;
+		}
+
+		/// <summary>
 		/// 原型类克隆方法
 		/// </summary>
 		/// <returns>返回拷贝后对象</returns>
