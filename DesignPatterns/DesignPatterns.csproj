@@ -53,6 +53,12 @@
     <Compile Include="AbstractFactoryPattern\Product\NanChangYaBo.cs" />
     <Compile Include="AbstractFactoryPattern\Factory\ShangHaiFactory.cs" />
     <Compile Include="AbstractFactoryPattern\Factory\NanChangFactory.cs" />
+    <Compile Include="AdapterPattern\ClassModelAdapter\IThreeHole.cs" />
+    <Compile Include="AdapterPattern\ClassModelAdapter\PowerAdapter.cs" />
+    <Compile Include="AdapterPattern\ClassModelAdapter\AbstractTwoHole.cs" />
+    <Compile Include="AdapterPattern\ObjectModelAdapter\PowerAdapter.cs" />
+    <Compile Include="AdapterPattern\ObjectModelAdapter\ThreeHole.cs" />
+    <Compile Include="AdapterPattern\ObjectModelAdapter\TwoHole.cs" />
     <Compile Include="BuilderPattern\BaseBuilder.cs" />
     <Compile Include="BuilderPattern\Computer.cs" />
     <Compile Include="BuilderPattern\ConcreteBuilderC.cs" />
@@ -80,6 +86,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AbstractFactoryPattern\uml01.png" />
+    <Content Include="AdapterPattern\ClassModelAdapter\uml01.png" />
+    <Content Include="AdapterPattern\ObjectModelAdapter\uml01.png" />
     <Content Include="BuilderPattern\uml01.png" />
     <Content Include="FactoryMethodPattern\uml01.png" />
     <Content Include="PrototypePattern\uml01.png" />

@@ -54,6 +54,8 @@
     <Compile Include="AbstractFactoryPattern\AbstractFactoryPatternTests.cs" />
     <Compile Include="AbstractFactoryPattern\Factory\NanChangFactoryTests.cs" />
     <Compile Include="AbstractFactoryPattern\Factory\ShangHaiFactoryTests.cs" />
+    <Compile Include="AdapterPattern\ClassModelAdapter\PowerAdapterTests.cs" />
+    <Compile Include="AdapterPattern\ObjectModelAdapter\PowerAdapterTests.cs" />
     <Compile Include="BuilderPattern\BuilderPatternTests.cs" />
     <Compile Include="FactoryMethodPattern\FactoryMethodPatternTest.cs" />
     <Compile Include="FactoryMethodPattern\Factory\MincedMeatEggplantFactoryTests.cs" />
