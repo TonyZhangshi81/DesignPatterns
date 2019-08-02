@@ -59,6 +59,11 @@
     <Compile Include="AdapterPattern\ObjectModelAdapter\PowerAdapter.cs" />
     <Compile Include="AdapterPattern\ObjectModelAdapter\ThreeHole.cs" />
     <Compile Include="AdapterPattern\ObjectModelAdapter\TwoHole.cs" />
+    <Compile Include="BridgePattern\BaseRemoteControl.cs" />
+    <Compile Include="BridgePattern\BaseTV.cs" />
+    <Compile Include="BridgePattern\ConcreteRemote.cs" />
+    <Compile Include="BridgePattern\Realize\SamsungTV.cs" />
+    <Compile Include="BridgePattern\Realize\ChangHongTV.cs" />
     <Compile Include="BuilderPattern\BaseBuilder.cs" />
     <Compile Include="BuilderPattern\Computer.cs" />
     <Compile Include="BuilderPattern\ConcreteBuilderC.cs" />
@@ -88,6 +93,7 @@
     <Content Include="AbstractFactoryPattern\uml01.png" />
     <Content Include="AdapterPattern\ClassModelAdapter\uml01.png" />
     <Content Include="AdapterPattern\ObjectModelAdapter\uml01.png" />
+    <Content Include="BridgePattern\uml01.png" />
     <Content Include="BuilderPattern\uml01.png" />
     <Content Include="FactoryMethodPattern\uml01.png" />
     <Content Include="PrototypePattern\uml01.png" />
