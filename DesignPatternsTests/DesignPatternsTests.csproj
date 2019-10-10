@@ -22,8 +22,8 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -68,12 +68,43 @@
     <Compile Include="SingletonPattern\SingletonTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj">
-      <Project>{FCA92DE9-C454-4BB6-BF73-F63C544E6475}</Project>
-      <Name>DesignPatterns</Name>
+    <ProjectReference Include="..\DesignPatterns\1-Creational Patterns\01-Simple Factory\SimpleFactoryPattern.csproj">
+      <Project>{fca92de9-c454-4bb6-bf73-f63c544e6471}</Project>
+      <Name>SimpleFactoryPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\1-Creational Patterns\02-Abstract Factory\AbstractFactoryPattern.csproj">
+      <Project>{fca92de9-c454-4bb6-bf73-f63c544e6472}</Project>
+      <Name>AbstractFactoryPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\1-Creational Patterns\03-Builder\BuilderPattern.csproj">
+      <Project>{f1d406d9-2245-415a-84aa-f58653e807fe}</Project>
+      <Name>BuilderPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\1-Creational Patterns\04-Factory Method\FactoryMethodPattern.csproj">
+      <Project>{fca92de9-c454-4bb6-bf73-f63c544e6475}</Project>
+      <Name>FactoryMethodPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\1-Creational Patterns\05-Prototype\PrototypePattern.csproj">
+      <Project>{fca92de9-c454-4bb6-bf73-f63c544e6476}</Project>
+      <Name>PrototypePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\1-Creational Patterns\06-Singleton\SingletonPattern.csproj">
+      <Project>{722dc591-4a80-4a6e-bd20-83692336b860}</Project>
+      <Name>SingletonPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\2-Structural Patterns\07-Adapter\AdapterPattern.csproj">
+      <Project>{fca92de9-c454-4bb6-bf73-f63c544e6477}</Project>
+      <Name>AdapterPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\2-Structural Patterns\08-Bridge\BridgePattern.csproj">
+      <Project>{fca92de9-c454-4bb6-bf73-f63c544e6416}</Project>
+      <Name>BridgePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\2-Structural Patterns\09-Decorator\DecoratorPattern.csproj">
+      <Project>{fca92de9-c454-4bb6-bf73-f63c544e6436}</Project>
+      <Name>DecoratorPattern</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

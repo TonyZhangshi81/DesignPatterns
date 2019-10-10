@@ -14,21 +14,19 @@ namespace DesignPatterns.BridgePattern.Tests
 		[TestMethod()]
 		public void ChangHongRemoteControlTest01()
 		{
+			// 长虹电视机
+			var tv = new ChangHongTV();
 			// 创建一个遥控器
-			var control = new ConcreteRemote
-			{
-				// 长虹电视机
-				Implementor = new ChangHongTV()
-			};
+			BaseRemoteControl control = new ConcreteRemote(tv);
 
 			control.On();
-			Assert.AreEqual("长虹牌电视机已经打开了", control.Implementor.QueueStatus);
+			Assert.AreEqual("长虹牌电视机已经打开了", control.GetQueueStatus());
 
 			control.Off();
-			Assert.AreEqual("长虹牌电视机已经关闭了", control.Implementor.QueueStatus);
+			Assert.AreEqual("长虹牌电视机已经关闭了", control.GetQueueStatus());
 
 			control.SetChannel();
-			Assert.AreEqual("延迟2秒 -> 长虹牌电视机换台", control.Implementor.QueueStatus);
+			Assert.AreEqual("延迟2秒 -> 长虹牌电视机换台", control.GetQueueStatus());
 		}
 
 		/// <summary>
@@ -37,21 +35,19 @@ namespace DesignPatterns.BridgePattern.Tests
 		[TestMethod()]
 		public void SamsungRemoteControlTest01()
 		{
+			// 三星电视机
+			var tv = new SamsungTV();
 			// 创建一个遥控器
-			var control = new ConcreteRemote
-			{
-				// 三星电视机
-				Implementor = new SamsungTV()
-			};
+			BaseRemoteControl control = new ConcreteRemote(tv);
 
 			control.On();
-			Assert.AreEqual("三星牌电视机已经打开了", control.Implementor.QueueStatus);
+			Assert.AreEqual("三星牌电视机已经打开了", control.GetQueueStatus());
 
 			control.Off();
-			Assert.AreEqual("三星牌电视机已经关闭了", control.Implementor.QueueStatus);
+			Assert.AreEqual("三星牌电视机已经关闭了", control.GetQueueStatus());
 
 			control.SetChannel();
-			Assert.AreEqual("延迟2秒 -> 三星牌电视机换台(小窗口显示)", control.Implementor.QueueStatus);
+			Assert.AreEqual("延迟2秒 -> 三星牌电视机换台(小窗口显示)", control.GetQueueStatus());
 		}
 	}
 }

@@ -3,9 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6475}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsTests", "DesignPatternsTests\DesignPatternsTests.csproj", "{C8184E00-B25C-4E01-A910-BBAB210921DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern", "DesignPatterns\1-Creational Patterns\01-Simple Factory\SimpleFactoryPattern.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "DesignPatterns\1-Creational Patterns\02-Abstract Factory\AbstractFactoryPattern.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "DesignPatterns\1-Creational Patterns\03-Builder\BuilderPattern.csproj", "{F1D406D9-2245-415A-84AA-F58653E807FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "DesignPatterns\1-Creational Patterns\04-Factory Method\FactoryMethodPattern.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "DesignPatterns\1-Creational Patterns\05-Prototype\PrototypePattern.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "DesignPatterns\1-Creational Patterns\06-Singleton\SingletonPattern.csproj", "{722DC591-4A80-4A6E-BD20-83692336B860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "DesignPatterns\2-Structural Patterns\07-Adapter\AdapterPattern.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "DesignPatterns\2-Structural Patterns\08-Bridge\BridgePattern.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DesignPatterns\2-Structural Patterns\09-Decorator\DecoratorPattern.csproj", "{FCA92DE9-C454-4BB6-BF73-F63C544E6436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +29,46 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C8184E00-B25C-4E01-A910-BBAB210921DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8184E00-B25C-4E01-A910-BBAB210921DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8184E00-B25C-4E01-A910-BBAB210921DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8184E00-B25C-4E01-A910-BBAB210921DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6471}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6471}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6472}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6472}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F1D406D9-2245-415A-84AA-F58653E807FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D406D9-2245-415A-84AA-F58653E807FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D406D9-2245-415A-84AA-F58653E807FE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D406D9-2245-415A-84AA-F58653E807FE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6475}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6476}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6476}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{722DC591-4A80-4A6E-BD20-83692336B860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722DC591-4A80-4A6E-BD20-83692336B860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722DC591-4A80-4A6E-BD20-83692336B860}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{722DC591-4A80-4A6E-BD20-83692336B860}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6477}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6477}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6416}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6416}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6436}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA92DE9-C454-4BB6-BF73-F63C544E6436}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

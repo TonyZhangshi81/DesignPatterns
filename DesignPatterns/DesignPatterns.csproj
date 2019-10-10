@@ -70,6 +70,8 @@
     <Compile Include="BuilderPattern\ConcreteBuilderB.cs" />
     <Compile Include="BuilderPattern\ConcreteBuilderA.cs" />
     <Compile Include="BuilderPattern\Director.cs" />
+    <Compile Include="DecoratorPattern\BaseDecorator.cs" />
+    <Compile Include="DecoratorPattern\BaseHouse.cs" />
     <Compile Include="FactoryMethodPattern\BaseFood.cs" />
     <Compile Include="FactoryMethodPattern\BaseCreator.cs" />
     <Compile Include="FactoryMethodPattern\Product\ShreddedPorkWithPotatoes.cs" />
@@ -95,6 +97,7 @@
     <Content Include="AdapterPattern\ObjectModelAdapter\uml01.png" />
     <Content Include="BridgePattern\uml01.png" />
     <Content Include="BuilderPattern\uml01.png" />
+    <Content Include="DecoratorPattern\uml01.png" />
     <Content Include="FactoryMethodPattern\uml01.png" />
     <Content Include="PrototypePattern\uml01.png" />
     <Content Include="SimpleFactoryPattern\uml01.png" />
