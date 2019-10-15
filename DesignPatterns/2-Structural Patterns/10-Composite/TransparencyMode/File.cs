@@ -27,10 +27,9 @@ namespace DesignPatterns.CompositePattern.TransparencyMode
         /// <summary>
         /// 打开文件--该操作相当于Component类型的Operation方法
         /// </summary>
-        /// <param name="depth"></param>
-        public override string Open(int depth)
+        public override void Open()
         {
-            return string.Format("{0} {1}", new String('-', depth), _name);
+            Folder.TreeList.Add(_name);
         }
 
         /// <summary>

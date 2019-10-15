@@ -1,16 +1,14 @@
 ﻿using System.Collections.Generic;
 
-namespace DesignPatterns.CompositePattern.TransparencyMode
+namespace DesignPatterns.CompositePattern.SecurityMode
 {
     /// <summary>
     /// 该抽象类就是文件夹抽象接口的定义，该类型就相当于是抽象构件Component类型
     /// </summary>
     /// <remarks>
     /// 组合模式有两种实现方式，一种是：透明式的组合模式，另外一种是：安全式的组合模式。
-    /// 所谓透明式是指“抽象构件角色”定义的接口行为集合包含两个部分，一部分是叶子对象本身所包含的行为（比如Operation），另外一部分是容器对象本身所包含的管理子对象的行为(Add,Remove)。
-    /// 这个抽象构件必须同时包含这两类对象所有的行为，客户端代码才会透明的使用，无论调用容器对象还是叶子对象，接口方法都是一样的，
-    /// 这就是透明，针对客户端代码的透明，但是也有他自己的问题，叶子对象不会包含自己的子对象，为什么要有Add,Remove等类似方法呢，
-    /// 调用叶子对象这样的方法可能会抛出异常，这样就不安全了，然后人们就提出了“安全式的组合模式”。
+    /// 所谓安全式是指“抽象构件角色”只定义叶子对象的方法，确切的说这个抽象构件只定义两类对象共有的行为，然后容器对象的方法定义在“树枝构件角色”上，
+    /// 这样叶子对象有叶子对象的方法，容器对象有容器对象的方法，这样责任很明确，当然调用肯定不会抛出异常了。
     /// <para>组合模式的实现要点：</para>
     /// <list type="bullet">
     /// <item>1.Composite模式采用树形结构来实现普遍存在的对象容器，从而将“一对多”的关系转化为“一对一”的关系，使得客户代码可以一致地处理对象和对象容器，无需关心处理的是单个的对象，还是组合的对象容器。</item>
@@ -75,18 +73,6 @@ namespace DesignPatterns.CompositePattern.TransparencyMode
         {
             this._name = name;
         }
-
-        /// <summary>
-        /// 增加文件夹或者文件
-        /// </summary>
-        /// <param name="folder"></param>
-        public abstract void Add(Folder folder);
-
-        /// <summary>
-        /// 删除文件夹或者文件
-        /// </summary>
-        /// <param name="folder"></param>
-        public abstract void Remove(Folder folder);
 
         /// <summary>
         /// 打开文件或者文件夹--该操作相当于Component类型的Operation方法

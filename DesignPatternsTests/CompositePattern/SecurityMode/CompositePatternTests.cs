@@ -1,7 +1,7 @@
-﻿using DesignPatterns.CompositePattern.TransparencyMode;
+﻿using DesignPatterns.CompositePattern.SecurityMode;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DesignPatternsTests.CompositePattern.TransparencyMode
+namespace DesignPatternsTests.CompositePattern.SecurityMode
 {
     /// <summary>
 	/// 组合模式测试类

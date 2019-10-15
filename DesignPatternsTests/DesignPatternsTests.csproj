@@ -58,6 +58,7 @@
     <Compile Include="AdapterPattern\ObjectModelAdapter\PowerAdapterTests.cs" />
     <Compile Include="BridgePattern\BridgePatternTests.cs" />
     <Compile Include="BuilderPattern\BuilderPatternTests.cs" />
+    <Compile Include="CompositePattern\SecurityMode\CompositePatternTests.cs" />
     <Compile Include="CompositePattern\TransparencyMode\CompositePatternTests.cs" />
     <Compile Include="DecoratorPattern\DecoratorPatternTest.cs" />
     <Compile Include="FactoryMethodPattern\FactoryMethodPatternTest.cs" />

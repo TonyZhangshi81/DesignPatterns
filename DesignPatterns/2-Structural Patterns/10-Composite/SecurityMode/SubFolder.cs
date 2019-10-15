@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace DesignPatterns.CompositePattern.TransparencyMode
+namespace DesignPatterns.CompositePattern.SecurityMode
 {
     /// <summary>
     /// 
     /// </summary>
-    public sealed class SubFolder : Folder
+    public sealed class SubFolder : NextFolder
     {
         /// <summary>
         /// 

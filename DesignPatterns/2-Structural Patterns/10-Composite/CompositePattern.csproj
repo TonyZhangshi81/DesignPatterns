@@ -40,12 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityMode\File.cs" />
+    <Compile Include="SecurityMode\Folder.cs" />
+    <Compile Include="SecurityMode\NextFolder.cs" />
+    <Compile Include="SecurityMode\SubFolder.cs" />
     <Compile Include="TransparencyMode\Folder.cs" />
     <Compile Include="TransparencyMode\SubFolder.cs" />
     <Compile Include="TransparencyMode\File.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SecurityMode\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
