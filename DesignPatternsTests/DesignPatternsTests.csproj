@@ -61,6 +61,7 @@
     <Compile Include="CompositePattern\SecurityMode\CompositePatternTests.cs" />
     <Compile Include="CompositePattern\TransparencyMode\CompositePatternTests.cs" />
     <Compile Include="DecoratorPattern\DecoratorPatternTest.cs" />
+    <Compile Include="FacadePattern\FacadePatternTest.cs" />
     <Compile Include="FactoryMethodPattern\FactoryMethodPatternTest.cs" />
     <Compile Include="FactoryMethodPattern\Factory\MincedMeatEggplantFactoryTests.cs" />
     <Compile Include="FactoryMethodPattern\Factory\TomatoScrambledEggsFactoryTests.cs" />
@@ -110,6 +111,10 @@
     <ProjectReference Include="..\DesignPatterns\2-Structural Patterns\10-Composite\CompositePattern.csproj">
       <Project>{c285a793-67e4-4851-8cbd-2bed1abd7fa4}</Project>
       <Name>CompositePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\2-Structural Patterns\11-Facade\FacadePattern.csproj">
+      <Project>{c285a793-67e4-4851-8cbd-2bed1abd7fa3}</Project>
+      <Name>FacadePattern</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

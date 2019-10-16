@@ -10,11 +10,11 @@
 (6)——原型模式（Prototype Pattern）<br/>
 <br/>
 # 结构型模式<br/>
-(7)——适配器模式（Adapter Pattern）<br/>
-(8)——桥接模式（Bridge Pattern） <br/>
-(9)——装饰者模式（Decorator Pattern）<br/>
+(7)——适配器模式（Adapter Pattern）### 注重转换接口<br/>
+(8)——桥接模式（Bridge Pattern）### 注重分离接口（抽象）与其实现<br/>
+(9)——装饰者模式（Decorator Pattern）### 注重稳定接口的前提下为对象扩展功能 <br/>
 (10)——组合模式（Composite Pattern）<br/>
-(11)——外观模式（Facade Pattern）<br/>
+(11)——外观模式（Facade Pattern）### 注重简化接口<br/>
 (12)——享元模式（Flyweight Pattern）<br/>
 (13)——代理模式（Proxy Pattern）<br/>
 <br/>
