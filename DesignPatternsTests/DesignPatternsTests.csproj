@@ -116,8 +116,14 @@
       <Project>{c285a793-67e4-4851-8cbd-2bed1abd7fa3}</Project>
       <Name>FacadePattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns\2-Structural Patterns\12-Flyweight\FlyweightPattern.csproj">
+      <Project>{b1a0d42b-1f68-4bf1-aace-71ed78e04037}</Project>
+      <Name>FlyweightPattern</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="FlyweightPattern\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
